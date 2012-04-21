@@ -16,12 +16,14 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        UIImage *image = [UIImage imageNamed:@"my_cool_image"];
         self.locations = [[NSMutableArray alloc] initWithObjects:
                           [[STLocation alloc] initWithName:@"Bird" 
                                                   subTitle:@"Movies" 
-                                                     image:nil 
+                                                     image:[UIImage imageNamed:@"my_cool_image"] 
                                                   location:CLLocationCoordinate2DMake((double)10.0, (double)10.0 )],
                           nil];
+        
         self.title = NSLocalizedString(@"First", @"First");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
