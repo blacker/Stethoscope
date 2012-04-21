@@ -10,11 +10,18 @@
 
 @implementation STFirstViewController
 @synthesize mapView;
+@synthesize locations;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        self.locations = [[NSMutableArray alloc] initWithObjects:
+                          [[STLocation alloc] initWithName:@"Bird" 
+                                                  subTitle:@"Movies" 
+                                                     image:nil 
+                                                  location:CLLocationCoordinate2DMake((double)10.0, (double)10.0 )],
+                          nil];
         self.title = NSLocalizedString(@"First", @"First");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }

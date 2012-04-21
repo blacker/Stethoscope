@@ -21,7 +21,7 @@
         self.name = name;
         self.subTitle = subTitle;
         self.image = image;
-        self.coordinate = location;
+        [self setCoordinate: location];
     }
     return self;
 }

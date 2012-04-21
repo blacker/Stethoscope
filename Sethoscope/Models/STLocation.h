@@ -15,4 +15,6 @@
 @property (strong, nonatomic) NSString *subTitle;
 @property (strong, nonatomic) UIImage *image;
 
+- (id) initWithName: (NSString *) name subTitle:(NSString *) subTitle image: (UIImage *) image location:(CLLocationCoordinate2D) location;
+
 @end

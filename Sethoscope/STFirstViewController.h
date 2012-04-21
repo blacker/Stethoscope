@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 #import <UIKit/UIKit.h>
+#import "STLocation.h"
 
 @interface STFirstViewController : UIViewController
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+
+@property (strong, nonatomic) NSMutableArray *locations;
 
 @end
