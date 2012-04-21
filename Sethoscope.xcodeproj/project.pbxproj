@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7521691615432FCD007BCCAE /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7521691515432FCD007BCCAE /* STLocation.m */; };
 		8DCBD62B15432E0200F72E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBD62A15432E0200F72E61 /* UIKit.framework */; };
 		8DCBD62D15432E0200F72E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBD62C15432E0200F72E61 /* Foundation.framework */; };
 		8DCBD62F15432E0200F72E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBD62E15432E0200F72E61 /* CoreGraphics.framework */; };
@@ -26,21 +27,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7521691415432FCD007BCCAE /* STLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STLocation.h; path = Models/STLocation.h; sourceTree = "<group>"; };
+		7521691515432FCD007BCCAE /* STLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STLocation.m; path = Models/STLocation.m; sourceTree = "<group>"; };
 		8DCBD62615432E0200F72E61 /* Sethoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sethoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCBD62A15432E0200F72E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DCBD62C15432E0200F72E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DCBD62E15432E0200F72E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8DCBD63215432E0200F72E61 /* Sethoscope-Info.plist */ = {isa = PBXFileReference; path = "Sethoscope-Info.plist"; sourceTree = "<group>"; };
+		8DCBD63215432E0200F72E61 /* Sethoscope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sethoscope-Info.plist"; sourceTree = "<group>"; };
 		8DCBD63415432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DCBD63615432E0200F72E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DCBD63815432E0200F72E61 /* Sethoscope-Prefix.pch */ = {isa = PBXFileReference; path = "Sethoscope-Prefix.pch"; sourceTree = "<group>"; };
-		8DCBD63915432E0200F72E61 /* STAppDelegate.h */ = {isa = PBXFileReference; path = STAppDelegate.h; sourceTree = "<group>"; };
+		8DCBD63815432E0200F72E61 /* Sethoscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sethoscope-Prefix.pch"; sourceTree = "<group>"; };
+		8DCBD63915432E0200F72E61 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
 		8DCBD63A15432E0200F72E61 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
-		8DCBD63C15432E0200F72E61 /* STFirstViewController.h */ = {isa = PBXFileReference; path = STFirstViewController.h; sourceTree = "<group>"; };
+		8DCBD63C15432E0200F72E61 /* STFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFirstViewController.h; sourceTree = "<group>"; };
 		8DCBD63D15432E0200F72E61 /* STFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFirstViewController.m; sourceTree = "<group>"; };
 		8DCBD63F15432E0200F72E61 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		8DCBD64115432E0200F72E61 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8DCBD64315432E0200F72E61 /* STSecondViewController.h */ = {isa = PBXFileReference; path = STSecondViewController.h; sourceTree = "<group>"; };
+		8DCBD64315432E0200F72E61 /* STSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STSecondViewController.h; sourceTree = "<group>"; };
 		8DCBD64415432E0200F72E61 /* STSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STSecondViewController.m; sourceTree = "<group>"; };
 		8DCBD64615432E0200F72E61 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		8DCBD64815432E0200F72E61 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -64,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7521691315432FAD007BCCAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7521691415432FCD007BCCAE /* STLocation.h */,
+				7521691515432FCD007BCCAE /* STLocation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8DCBD61B15432E0100F72E61 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 		8DCBD63015432E0200F72E61 /* Sethoscope */ = {
 			isa = PBXGroup;
 			children = (
+				7521691315432FAD007BCCAE /* Models */,
 				8DCBD63915432E0200F72E61 /* STAppDelegate.h */,
 				8DCBD63A15432E0200F72E61 /* STAppDelegate.m */,
 				8DCBD63C15432E0200F72E61 /* STFirstViewController.h */,
@@ -197,6 +210,7 @@
 				8DCBD63B15432E0200F72E61 /* STAppDelegate.m in Sources */,
 				8DCBD63E15432E0200F72E61 /* STFirstViewController.m in Sources */,
 				8DCBD64515432E0200F72E61 /* STSecondViewController.m in Sources */,
+				7521691615432FCD007BCCAE /* STLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +348,7 @@
 				8DCBD65A15432E0200F72E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
