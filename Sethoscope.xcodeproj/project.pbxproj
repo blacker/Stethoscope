@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DCBD62B15432E0200F72E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBD62A15432E0200F72E61 /* UIKit.framework */; };
+		8DCBD62D15432E0200F72E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBD62C15432E0200F72E61 /* Foundation.framework */; };
+		8DCBD62F15432E0200F72E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBD62E15432E0200F72E61 /* CoreGraphics.framework */; };
+		8DCBD63515432E0200F72E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD63315432E0200F72E61 /* InfoPlist.strings */; };
+		8DCBD63715432E0200F72E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBD63615432E0200F72E61 /* main.m */; };
+		8DCBD63B15432E0200F72E61 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBD63A15432E0200F72E61 /* STAppDelegate.m */; };
+		8DCBD63E15432E0200F72E61 /* STFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBD63D15432E0200F72E61 /* STFirstViewController.m */; };
+		8DCBD64015432E0200F72E61 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD63F15432E0200F72E61 /* first.png */; };
+		8DCBD64215432E0200F72E61 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD64115432E0200F72E61 /* first@2x.png */; };
+		8DCBD64515432E0200F72E61 /* STSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBD64415432E0200F72E61 /* STSecondViewController.m */; };
+		8DCBD64715432E0200F72E61 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD64615432E0200F72E61 /* second.png */; };
+		8DCBD64915432E0200F72E61 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD64815432E0200F72E61 /* second@2x.png */; };
+		8DCBD64C15432E0200F72E61 /* STFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD64A15432E0200F72E61 /* STFirstViewController_iPhone.xib */; };
+		8DCBD64F15432E0200F72E61 /* STFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD64D15432E0200F72E61 /* STFirstViewController_iPad.xib */; };
+		8DCBD65215432E0200F72E61 /* STSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD65015432E0200F72E61 /* STSecondViewController_iPhone.xib */; };
+		8DCBD65515432E0200F72E61 /* STSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD65315432E0200F72E61 /* STSecondViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DCBD62615432E0200F72E61 /* Sethoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sethoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCBD62A15432E0200F72E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DCBD62C15432E0200F72E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DCBD62E15432E0200F72E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DCBD63215432E0200F72E61 /* Sethoscope-Info.plist */ = {isa = PBXFileReference; path = "Sethoscope-Info.plist"; sourceTree = "<group>"; };
+		8DCBD63415432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DCBD63615432E0200F72E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DCBD63815432E0200F72E61 /* Sethoscope-Prefix.pch */ = {isa = PBXFileReference; path = "Sethoscope-Prefix.pch"; sourceTree = "<group>"; };
+		8DCBD63915432E0200F72E61 /* STAppDelegate.h */ = {isa = PBXFileReference; path = STAppDelegate.h; sourceTree = "<group>"; };
+		8DCBD63A15432E0200F72E61 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		8DCBD63C15432E0200F72E61 /* STFirstViewController.h */ = {isa = PBXFileReference; path = STFirstViewController.h; sourceTree = "<group>"; };
+		8DCBD63D15432E0200F72E61 /* STFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFirstViewController.m; sourceTree = "<group>"; };
+		8DCBD63F15432E0200F72E61 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8DCBD64115432E0200F72E61 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8DCBD64315432E0200F72E61 /* STSecondViewController.h */ = {isa = PBXFileReference; path = STSecondViewController.h; sourceTree = "<group>"; };
+		8DCBD64415432E0200F72E61 /* STSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STSecondViewController.m; sourceTree = "<group>"; };
+		8DCBD64615432E0200F72E61 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8DCBD64815432E0200F72E61 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8DCBD64B15432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		8DCBD64E15432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		8DCBD65115432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STSecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		8DCBD65415432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STSecondViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCBD62315432E0200F72E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBD62B15432E0200F72E61 /* UIKit.framework in Frameworks */,
+				8DCBD62D15432E0200F72E61 /* Foundation.framework in Frameworks */,
+				8DCBD62F15432E0200F72E61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DCBD61B15432E0100F72E61 = {
+			isa = PBXGroup;
+			children = (
+				8DCBD63015432E0200F72E61 /* Sethoscope */,
+				8DCBD62915432E0200F72E61 /* Frameworks */,
+				8DCBD62715432E0200F72E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCBD62715432E0200F72E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBD62615432E0200F72E61 /* Sethoscope.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCBD62915432E0200F72E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBD62A15432E0200F72E61 /* UIKit.framework */,
+				8DCBD62C15432E0200F72E61 /* Foundation.framework */,
+				8DCBD62E15432E0200F72E61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DCBD63015432E0200F72E61 /* Sethoscope */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBD63915432E0200F72E61 /* STAppDelegate.h */,
+				8DCBD63A15432E0200F72E61 /* STAppDelegate.m */,
+				8DCBD63C15432E0200F72E61 /* STFirstViewController.h */,
+				8DCBD63D15432E0200F72E61 /* STFirstViewController.m */,
+				8DCBD63F15432E0200F72E61 /* first.png */,
+				8DCBD64115432E0200F72E61 /* first@2x.png */,
+				8DCBD64315432E0200F72E61 /* STSecondViewController.h */,
+				8DCBD64415432E0200F72E61 /* STSecondViewController.m */,
+				8DCBD64615432E0200F72E61 /* second.png */,
+				8DCBD64815432E0200F72E61 /* second@2x.png */,
+				8DCBD64A15432E0200F72E61 /* STFirstViewController_iPhone.xib */,
+				8DCBD64D15432E0200F72E61 /* STFirstViewController_iPad.xib */,
+				8DCBD65015432E0200F72E61 /* STSecondViewController_iPhone.xib */,
+				8DCBD65315432E0200F72E61 /* STSecondViewController_iPad.xib */,
+				8DCBD63115432E0200F72E61 /* Supporting Files */,
+			);
+			path = Sethoscope;
+			sourceTree = "<group>";
+		};
+		8DCBD63115432E0200F72E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBD63215432E0200F72E61 /* Sethoscope-Info.plist */,
+				8DCBD63315432E0200F72E61 /* InfoPlist.strings */,
+				8DCBD63615432E0200F72E61 /* main.m */,
+				8DCBD63815432E0200F72E61 /* Sethoscope-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCBD62515432E0200F72E61 /* Sethoscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCBD65815432E0200F72E61 /* Build configuration list for PBXNativeTarget "Sethoscope" */;
+			buildPhases = (
+				8DCBD62215432E0200F72E61 /* Sources */,
+				8DCBD62315432E0200F72E61 /* Frameworks */,
+				8DCBD62415432E0200F72E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sethoscope;
+			productName = Sethoscope;
+			productReference = 8DCBD62615432E0200F72E61 /* Sethoscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCBD61D15432E0100F72E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8DCBD62015432E0100F72E61 /* Build configuration list for PBXProject "Sethoscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DCBD61B15432E0100F72E61;
+			productRefGroup = 8DCBD62715432E0200F72E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCBD62515432E0200F72E61 /* Sethoscope */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCBD62415432E0200F72E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBD63515432E0200F72E61 /* InfoPlist.strings in Resources */,
+				8DCBD64015432E0200F72E61 /* first.png in Resources */,
+				8DCBD64215432E0200F72E61 /* first@2x.png in Resources */,
+				8DCBD64715432E0200F72E61 /* second.png in Resources */,
+				8DCBD64915432E0200F72E61 /* second@2x.png in Resources */,
+				8DCBD64C15432E0200F72E61 /* STFirstViewController_iPhone.xib in Resources */,
+				8DCBD64F15432E0200F72E61 /* STFirstViewController_iPad.xib in Resources */,
+				8DCBD65215432E0200F72E61 /* STSecondViewController_iPhone.xib in Resources */,
+				8DCBD65515432E0200F72E61 /* STSecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCBD62215432E0200F72E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBD63715432E0200F72E61 /* main.m in Sources */,
+				8DCBD63B15432E0200F72E61 /* STAppDelegate.m in Sources */,
+				8DCBD63E15432E0200F72E61 /* STFirstViewController.m in Sources */,
+				8DCBD64515432E0200F72E61 /* STSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DCBD63315432E0200F72E61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCBD63415432E0200F72E61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DCBD64A15432E0200F72E61 /* STFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCBD64B15432E0200F72E61 /* en */,
+			);
+			name = STFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8DCBD64D15432E0200F72E61 /* STFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCBD64E15432E0200F72E61 /* en */,
+			);
+			name = STFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8DCBD65015432E0200F72E61 /* STSecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCBD65115432E0200F72E61 /* en */,
+			);
+			name = STSecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8DCBD65315432E0200F72E61 /* STSecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCBD65415432E0200F72E61 /* en */,
+			);
+			name = STSecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DCBD65615432E0200F72E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DCBD65715432E0200F72E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCBD65915432E0200F72E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sethoscope/Sethoscope-Prefix.pch";
+				INFOPLIST_FILE = "Sethoscope/Sethoscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DCBD65A15432E0200F72E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sethoscope/Sethoscope-Prefix.pch";
+				INFOPLIST_FILE = "Sethoscope/Sethoscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCBD62015432E0100F72E61 /* Build configuration list for PBXProject "Sethoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCBD65615432E0200F72E61 /* Debug */,
+				8DCBD65715432E0200F72E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCBD65815432E0200F72E61 /* Build configuration list for PBXNativeTarget "Sethoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCBD65915432E0200F72E61 /* Debug */,
+				8DCBD65A15432E0200F72E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DCBD61D15432E0100F72E61 /* Project object */;
+}
