@@ -9,6 +9,7 @@
 #import "STFirstViewController.h"
 
 @implementation STFirstViewController
+@synthesize mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,6 +37,8 @@
 
 - (void)viewDidUnload
 {
+    [self setMapView:nil];
+    [self setMapView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
