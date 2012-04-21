@@ -34,11 +34,17 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.mapView setShowsUserLocation:YES];
+    [self.mapView addAnnotations:self.locations];
+    [self.mapView setDelegate:self.mapView];
+    [self.mapView setZoomEnabled:YES];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
