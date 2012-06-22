@@ -36,14 +36,14 @@
 		75D9D8F81543378200EB18DB /* STMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMapView.h; path = Views/STMapView.h; sourceTree = "<group>"; };
 		75D9D8F91543378200EB18DB /* STMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMapView.m; path = Views/STMapView.m; sourceTree = "<group>"; };
 		75DC031C154332F4006FF97D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		8DCBD62615432E0200F72E61 /* Sethoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sethoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCBD62615432E0200F72E61 /* Stethoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stethoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCBD62A15432E0200F72E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DCBD62C15432E0200F72E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DCBD62E15432E0200F72E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8DCBD63215432E0200F72E61 /* Sethoscope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sethoscope-Info.plist"; sourceTree = "<group>"; };
+		8DCBD63215432E0200F72E61 /* Stethoscope-Info.plist */ = {isa = PBXFileReference; path = "Stethoscope-Info.plist"; sourceTree = "<group>"; };
 		8DCBD63415432E0200F72E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DCBD63615432E0200F72E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DCBD63815432E0200F72E61 /* Sethoscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sethoscope-Prefix.pch"; sourceTree = "<group>"; };
+		8DCBD63815432E0200F72E61 /* Stethoscope-Prefix.pch */ = {isa = PBXFileReference; path = "Stethoscope-Prefix.pch"; sourceTree = "<group>"; };
 		8DCBD63915432E0200F72E61 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
 		8DCBD63A15432E0200F72E61 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
 		8DCBD63C15432E0200F72E61 /* STFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFirstViewController.h; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		8DCBD62715432E0200F72E61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DCBD62615432E0200F72E61 /* Sethoscope.app */,
+				8DCBD62615432E0200F72E61 /* Stethoscope.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,10 +150,10 @@
 		8DCBD63115432E0200F72E61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8DCBD63215432E0200F72E61 /* Sethoscope-Info.plist */,
+				8DCBD63215432E0200F72E61 /* Stethoscope-Info.plist */,
 				8DCBD63315432E0200F72E61 /* InfoPlist.strings */,
 				8DCBD63615432E0200F72E61 /* main.m */,
-				8DCBD63815432E0200F72E61 /* Sethoscope-Prefix.pch */,
+				8DCBD63815432E0200F72E61 /* Stethoscope-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DCBD62515432E0200F72E61 /* Sethoscope */ = {
+		8DCBD62515432E0200F72E61 /* Stethoscope */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DCBD65815432E0200F72E61 /* Build configuration list for PBXNativeTarget "Sethoscope" */;
+			buildConfigurationList = 8DCBD65815432E0200F72E61 /* Build configuration list for PBXNativeTarget "Stethoscope" */;
 			buildPhases = (
 				8DCBD62215432E0200F72E61 /* Sources */,
 				8DCBD62315432E0200F72E61 /* Frameworks */,
@@ -173,9 +173,9 @@
 			);
 			dependencies = (
 			);
-			name = Sethoscope;
+			name = Stethoscope;
 			productName = Sethoscope;
-			productReference = 8DCBD62615432E0200F72E61 /* Sethoscope.app */;
+			productReference = 8DCBD62615432E0200F72E61 /* Stethoscope.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 8DCBD62015432E0100F72E61 /* Build configuration list for PBXProject "Sethoscope" */;
+			buildConfigurationList = 8DCBD62015432E0100F72E61 /* Build configuration list for PBXProject "Stethoscope" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DCBD62515432E0200F72E61 /* Sethoscope */,
+				8DCBD62515432E0200F72E61 /* Stethoscope */,
 			);
 		};
 /* End PBXProject section */
@@ -333,9 +333,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sethoscope/Sethoscope-Prefix.pch";
-				INFOPLIST_FILE = "Sethoscope/Sethoscope-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Sethoscope/Stethoscope-Prefix.pch";
+				INFOPLIST_FILE = "Sethoscope/Stethoscope-Info.plist";
+				PRODUCT_NAME = Stethoscope;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -344,9 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sethoscope/Sethoscope-Prefix.pch";
-				INFOPLIST_FILE = "Sethoscope/Sethoscope-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Sethoscope/Stethoscope-Prefix.pch";
+				INFOPLIST_FILE = "Sethoscope/Stethoscope-Info.plist";
+				PRODUCT_NAME = Stethoscope;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DCBD62015432E0100F72E61 /* Build configuration list for PBXProject "Sethoscope" */ = {
+		8DCBD62015432E0100F72E61 /* Build configuration list for PBXProject "Stethoscope" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DCBD65615432E0200F72E61 /* Debug */,
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DCBD65815432E0200F72E61 /* Build configuration list for PBXNativeTarget "Sethoscope" */ = {
+		8DCBD65815432E0200F72E61 /* Build configuration list for PBXNativeTarget "Stethoscope" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DCBD65915432E0200F72E61 /* Debug */,
