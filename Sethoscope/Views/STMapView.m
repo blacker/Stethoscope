@@ -10,9 +10,11 @@
 
 @implementation STMapView
 
-- (void) showDetails: (id) accessory{
+@synthesize locations;
+
+- (MKPinAnnotationView*) showDetails: (id) accessory{
     NSLog(@"Showing details");
-    STLocation *location = [self.locations objectAtIndex:accessory.tag]
+    //STLocation *location = [self.locations objectAtIndex:accessory.tag]
 // push the new view controller with that location
 }
 #pragma mark - MKMap
@@ -21,7 +23,8 @@
     if ([location isKindOfClass:[MKUserLocation class]])
         return nil;
     
-    static NSString*  MapAnnotation = @"mapAnnotation";
+    
+    static NSString* MapAnnotation = @"mapAnnotation";
     MKPinAnnotationView* pinView = (MKPinAnnotationView *) [self dequeueReusableAnnotationViewWithIdentifier:MapAnnotation];
     if(!pinView){
         MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc] initWithAnnotation:location reuseIdentifier:MapAnnotation];

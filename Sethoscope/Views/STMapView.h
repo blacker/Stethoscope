@@ -11,4 +11,6 @@
 
 @interface STMapView : MKMapView
 
+@property (strong, nonatomic) NSMutableArray *locations;
+
 @end

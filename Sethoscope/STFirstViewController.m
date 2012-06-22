@@ -16,12 +16,13 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        NSLog(@"initializing with nib name");
         UIImage *image = [UIImage imageNamed:@"my_cool_image"];
         self.locations = [[NSMutableArray alloc] initWithObjects:
-                          [[STLocation alloc] initWithName:@"Bird" 
+                          [[STLocation alloc] initWithName:@"The Byrd" 
                                                   subTitle:@"Movies" 
-                                                     image:[UIImage imageNamed:@"my_cool_image"] 
-                                                  location:CLLocationCoordinate2DMake((double)10.0, (double)10.0 )],
+                                                     image:image 
+                                                  location:CLLocationCoordinate2DMake((double)37.552794, (double)-77.477968 )],
                           nil];
         
         self.title = NSLocalizedString(@"First", @"First");
@@ -45,6 +46,7 @@
     [super viewDidLoad];
     [self.mapView setShowsUserLocation:YES];
     [self.mapView addAnnotations:self.locations];
+    NSLog(@"add self.locations as annotations");
     [self.mapView setDelegate:self.mapView];
     [self.mapView setZoomEnabled:YES];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -62,6 +64,20 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    // 1
+    CLLocationCoordinate2D zoomLocation;
+    zoomLocation.latitude = 37.552794;
+    zoomLocation.longitude= -77.477968;
+    
+    
+    // 2
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 800, 800);
+    // 3
+    MKCoordinateRegion adjustedRegion = [mapView regionThatFits:viewRegion];                
+    // 4
+    [mapView setRegion:adjustedRegion animated:YES]; 
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
