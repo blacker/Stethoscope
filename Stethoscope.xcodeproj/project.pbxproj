@@ -99,7 +99,7 @@
 			children = (
 				75D9D8F61543365B00EB18DB /* CoreLocation.framework */,
 				75DC031C154332F4006FF97D /* MapKit.framework */,
-				8DCBD63015432E0200F72E61 /* Sethoscope */,
+				8DCBD63015432E0200F72E61 /* Stethoscope */,
 				8DCBD62915432E0200F72E61 /* Frameworks */,
 				8DCBD62715432E0200F72E61 /* Products */,
 			);
@@ -123,7 +123,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8DCBD63015432E0200F72E61 /* Sethoscope */ = {
+		8DCBD63015432E0200F72E61 /* Stethoscope */ = {
 			isa = PBXGroup;
 			children = (
 				75D9D8FB1543378700EB18DB /* Views */,
@@ -144,7 +144,7 @@
 				8DCBD65315432E0200F72E61 /* STSecondViewController_iPad.xib */,
 				8DCBD63115432E0200F72E61 /* Supporting Files */,
 			);
-			path = Sethoscope;
+			path = Stethoscope;
 			sourceTree = "<group>";
 		};
 		8DCBD63115432E0200F72E61 /* Supporting Files */ = {
@@ -174,7 +174,7 @@
 			dependencies = (
 			);
 			name = Stethoscope;
-			productName = Sethoscope;
+			productName = Stethoscope;
 			productReference = 8DCBD62615432E0200F72E61 /* Stethoscope.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -333,8 +333,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sethoscope/Stethoscope-Prefix.pch";
-				INFOPLIST_FILE = "Sethoscope/Stethoscope-Info.plist";
+				GCC_PREFIX_HEADER = "Stethoscope/Stethoscope-Prefix.pch";
+				INFOPLIST_FILE = "Stethoscope/Stethoscope-Info.plist";
 				PRODUCT_NAME = Stethoscope;
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,8 +344,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sethoscope/Stethoscope-Prefix.pch";
-				INFOPLIST_FILE = "Sethoscope/Stethoscope-Info.plist";
+				GCC_PREFIX_HEADER = "Stethoscope/Stethoscope-Prefix.pch";
+				INFOPLIST_FILE = "Stethoscope/Stethoscope-Info.plist";
 				PRODUCT_NAME = Stethoscope;
 				WRAPPER_EXTENSION = app;
 			};
